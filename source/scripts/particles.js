@@ -11,7 +11,7 @@ class Canvas {
       height       : 2600,
       particleCount: 150,
       sizes        : [ 3, 4, 6 ],
-      colors       : [ '#9013fe', '#50e3c2', '#f8e71c', '#b8e986', '#8b572a', '#d0021b' ]
+      colors       : [ '#90c53f', '#47848f', '#920e04', '#50e3c2', '#F5A623', '#b8e986' ]
     }
 
     this.active = true;
