@@ -1,0 +1,42 @@
+/**!
+ * React ES6 Boilerplate
+ * Author: @iduuck
+ * Date: 1 October 2015
+ *
+ * https://github.com/nick/react-es6-boilerplate
+ */
+
+
+/**! Site settings
+ ================================= */
+
+@import "site-settings";
+
+
+/**! Bower Components
+ ================================= */
+
+@import "normalize";
+@import 'bootstrap-grid';
+
+
+/**! Base
+ ================================= */
+
+@import "base";
+
+
+/**! Layouts
+ ================================= */
+
+@import "layout/header";
+@import "layout/projects";
+@import "layout/footer";
+
+
+/**! Modules
+ ================================= */
+
+@import "modules/module"; // Example module
+@import "modules/welcome";
+@import "modules/project";

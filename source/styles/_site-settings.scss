@@ -1,0 +1,20 @@
+/* ====================
+  Site Settings
+  ===================== */
+
+$enable-flex: true; // Remove for legacy support
+
+$container-max-widths: (
+  sm: 500px
+);
+
+$grid-columns:      12;
+$grid-gutter-width: 1.5rem;
+
+$color-map: (
+  nodejs: #9013fe,
+  electron: #d0021b,
+  serverside: #50e3c2,
+  frontend: #F5A623,
+  boilerplate: #b8e986,
+);

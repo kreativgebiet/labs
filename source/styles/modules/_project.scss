@@ -1,0 +1,40 @@
+/* ====================
+  Module/Project
+  ===================== */
+
+.project {
+  padding: 20px 0;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid #e2e2e2;
+  transition: opacity 200ms linear;
+
+  &:hover { opacity: .75; }
+  &:last-child { border-bottom: 0; }
+
+  &-name {
+    font-size: 20px;
+  }
+
+  &-description {
+    font-size: 15px;
+    margin: 5px 0 10px;
+  }
+
+  &-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    background: black;
+    border-radius: 3px;
+    color: white;
+    padding: 3px;
+
+    @each $tag, $color in $color-map {
+      &--#{$tag} {
+        background: $color;
+      }
+    }
+  }
+}
