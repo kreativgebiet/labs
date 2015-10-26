@@ -79,6 +79,14 @@ gulp.task('styles', () => {
     .pipe(connect.reload());
 });
 
+gulp.task('images', () => {
+  gulp.src('./source/images/*.{png,jpg,svg}')
+    .pipe(gulp.dest(DEST_PATH + '/images'));
+  gulp.src('./source/images/icn/*.{png,ico,svg}')
+    .pipe(gulp.dest(DEST_PATH + '/images/icn'));
+});
+
+
 gulp.task('server', next => {
   connect.server({
     port: SERVER_PORT,
